@@ -8,6 +8,7 @@ Here's an example program in JavaScript that runs in a browser and retrieves dat
     <div id="data"></div>
     <script>
       var xhr = new XMLHttpRequest();
+      
       xhr.open('GET', 'http://warn1234.azurewebsites.net/api/Products/SC0032kLVfg', true);
 	// xhr.open('GET', 'https://api.publicapis.org/entries', true); 
       xhr.onload = function () {
